@@ -1,0 +1,26 @@
+{
+  "request" : {
+    "url" : "/nexus/service/local/lucene/search?collapseresults=true&exact=false&g=org.camunda.*&v=7.3.*-SNAPSHOT&repositoryId=camunda-bpm-ee-snapshots",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-lucene-search-3zNjp.json",
+    "headers" : {
+      "Date" : "Tue, 08 Dec 2015 23:05:51 GMT",
+      "Server" : "Nexus/2.11.4-01 Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V8",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "X-Content-Type-Options" : "nosniff",
+      "Content-Type" : "application/json; charset=UTF-8",
+      "Vary" : "Accept-Charset,Accept-Encoding,Accept-Language,Accept",
+      "Content-Length" : "107",
+      "Keep-Alive" : "timeout=15, max=100",
+      "Connection" : "Keep-Alive"
+    }
+  }
+}
